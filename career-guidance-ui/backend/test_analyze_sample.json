@@ -1,0 +1,37 @@
+{
+  "missingSkills": [
+    "Python",
+    "React",
+    "Docker",
+    "Git",
+    "PostgreSQL",
+    "REST API",
+    "Unit Testing"
+  ],
+  "priorityScores": {
+    "Python": 0.9,
+    "React": 0.85,
+    "Docker": 0.75,
+    "Git": 0.8,
+    "PostgreSQL": 0.7,
+    "REST API": 0.8,
+    "Unit Testing": 0.65
+  },
+  "gapSeverity": {
+    "Python": 0.85,
+    "React": 0.75,
+    "Docker": 0.65,
+    "Git": 0.55,
+    "PostgreSQL": 0.7,
+    "REST API": 0.6,
+    "Unit Testing": 0.5
+  },
+  "targetDomain": "Software Development",
+  "readinessScore": 42,
+  "extractedSkills": [
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Node.js"
+  ]
+}

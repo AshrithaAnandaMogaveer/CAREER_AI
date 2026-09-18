@@ -1,0 +1,68 @@
+================================================================================
+  SIMPLE INSTRUCTIONS - Start Your Chatbot with LM Studio
+================================================================================
+
+STEP 1: Open LM Studio
+  - Launch LM Studio on your PC
+  - Load a Mistral-7B-Instruct model (any quantization)
+  - Click "Start Server" button
+  - Keep LM Studio running
+
+STEP 2: Install Dependencies (One Time Only)
+  cd career-guidance-ui/backend
+  pip install -r requirements.txt
+
+STEP 3: Start Your Flask Server
+  cd ..
+  python flask_cors_config.py
+
+EXPECTED OUTPUT:
+  ✅ LM Studio connected successfully!
+     Using model: mistralai/Mistral-7B-Instruct-v0.2
+
+STEP 4: Test Your Chatbot
+  - Open your app
+  - Go to Routine Builder
+  - Ask questions in the chat
+  - Get smart, fast responses!
+
+================================================================================
+
+WHAT IF LM STUDIO IS NOT RUNNING?
+
+No problem! The chatbot automatically uses fallback AI.
+You'll see: "⚠️ LM Studio not running. Using fallback AI."
+The chatbot still works perfectly!
+
+================================================================================
+
+PERFORMANCE:
+  - With LM Studio: 1-5 seconds (smart, contextual responses)
+  - Without LM Studio: <100ms (fast, rule-based responses)
+
+Both work great!
+
+================================================================================
+
+TROUBLESHOOTING:
+
+Problem: "LM Studio not running"
+Solution: Open LM Studio, load model, start server, restart Flask
+
+Problem: "No model loaded"  
+Solution: Load a model in LM Studio's Chat tab
+
+Problem: Slow responses
+Solution: Enable GPU offload in LM Studio settings
+
+================================================================================
+
+For detailed guides, see:
+  - QUICK_START_LM_STUDIO.md (2-minute setup)
+  - LM_STUDIO_SETUP.md (complete guide)
+
+================================================================================
+
+THAT'S IT! Enjoy your enhanced chatbot! 🚀
+
+================================================================================

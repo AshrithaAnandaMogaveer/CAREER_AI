@@ -1,0 +1,425 @@
+{
+  "prioritized_skills": [
+    {
+      "skill": "Node.js",
+      "priority_score": 0.84,
+      "gap_severity": 80,
+      "estimated_hours": 40,
+      "domain_relevance": "high",
+      "prerequisites": [
+        "javascript"
+      ],
+      "hours_remaining": 10
+    },
+    {
+      "skill": "React",
+      "priority_score": 0.86,
+      "gap_severity": 85,
+      "estimated_hours": 40,
+      "domain_relevance": "high",
+      "prerequisites": [
+        "javascript",
+        "html",
+        "css"
+      ],
+      "hours_remaining": 5
+    },
+    {
+      "skill": "MongoDB",
+      "priority_score": 0.58,
+      "gap_severity": 70,
+      "estimated_hours": 40,
+      "domain_relevance": "low",
+      "prerequisites": [
+        "database fundamentals"
+      ],
+      "hours_remaining": 15
+    },
+    {
+      "skill": "Docker",
+      "priority_score": 0.78,
+      "gap_severity": 75,
+      "estimated_hours": 40,
+      "domain_relevance": "high",
+      "prerequisites": [
+        "linux",
+        "command line"
+      ],
+      "hours_remaining": 10
+    },
+    {
+      "skill": "Kubernetes",
+      "priority_score": 0.7,
+      "gap_severity": 65,
+      "estimated_hours": 56,
+      "domain_relevance": "medium",
+      "prerequisites": [
+        "docker",
+        "linux"
+      ],
+      "hours_remaining": 6
+    }
+  ],
+  "learning_path": [
+    {
+      "level": 1,
+      "skills": [
+        "react",
+        "node.js",
+        "database fundamentals",
+        "command line",
+        "linux"
+      ],
+      "description": "Foundation - Core prerequisites"
+    },
+    {
+      "level": 2,
+      "skills": [
+        "mongodb",
+        "docker"
+      ],
+      "description": "Intermediate - Building on fundamentals"
+    },
+    {
+      "level": 3,
+      "skills": [
+        "kubernetes"
+      ],
+      "description": "Advanced - Specialized skills"
+    }
+  ],
+  "weekly_schedule": [
+    {
+      "week": 1,
+      "start_date": "2026-02-25",
+      "end_date": "2026-03-03",
+      "skills": [
+        {
+          "skill": "Node.js",
+          "hours": 15,
+          "priority": 0.84,
+          "status": "in_progress",
+          "progress": 37
+        }
+      ],
+      "total_hours": 15,
+      "utilization": 100
+    },
+    {
+      "week": 2,
+      "start_date": "2026-03-04",
+      "end_date": "2026-03-10",
+      "skills": [
+        {
+          "skill": "Node.js",
+          "hours": 15,
+          "priority": 0.84,
+          "status": "in_progress",
+          "progress": 60
+        }
+      ],
+      "total_hours": 15,
+      "utilization": 100
+    },
+    {
+      "week": 3,
+      "start_date": "2026-03-11",
+      "end_date": "2026-03-17",
+      "skills": [
+        {
+          "skill": "Node.js",
+          "hours": 10,
+          "priority": 0.84,
+          "status": "complete",
+          "progress": 100
+        },
+        {
+          "skill": "React",
+          "hours": 5,
+          "priority": 0.86,
+          "status": "in_progress",
+          "progress": 12
+        }
+      ],
+      "total_hours": 15,
+      "utilization": 100
+    },
+    {
+      "week": 4,
+      "start_date": "2026-03-18",
+      "end_date": "2026-03-24",
+      "skills": [
+        {
+          "skill": "React",
+          "hours": 15,
+          "priority": 0.86,
+          "status": "in_progress",
+          "progress": 42
+        }
+      ],
+      "total_hours": 15,
+      "utilization": 100
+    },
+    {
+      "week": 5,
+      "start_date": "2026-03-25",
+      "end_date": "2026-03-31",
+      "skills": [
+        {
+          "skill": "React",
+          "hours": 15,
+          "priority": 0.86,
+          "status": "in_progress",
+          "progress": 75
+        }
+      ],
+      "total_hours": 15,
+      "utilization": 100
+    },
+    {
+      "week": 6,
+      "start_date": "2026-04-01",
+      "end_date": "2026-04-07",
+      "skills": [
+        {
+          "skill": "React",
+          "hours": 5,
+          "priority": 0.86,
+          "status": "complete",
+          "progress": 100
+        },
+        {
+          "skill": "MongoDB",
+          "hours": 10,
+          "priority": 0.58,
+          "status": "in_progress",
+          "progress": 25
+        }
+      ],
+      "total_hours": 15,
+      "utilization": 100
+    },
+    {
+      "week": 7,
+      "start_date": "2026-04-08",
+      "end_date": "2026-04-14",
+      "skills": [
+        {
+          "skill": "MongoDB",
+          "hours": 15,
+          "priority": 0.58,
+          "status": "in_progress",
+          "progress": 50
+        }
+      ],
+      "total_hours": 15,
+      "utilization": 100
+    },
+    {
+      "week": 8,
+      "start_date": "2026-04-15",
+      "end_date": "2026-04-21",
+      "skills": [
+        {
+          "skill": "MongoDB",
+          "hours": 15,
+          "priority": 0.58,
+          "status": "complete",
+          "progress": 100
+        }
+      ],
+      "total_hours": 15,
+      "utilization": 100
+    },
+    {
+      "week": 9,
+      "start_date": "2026-04-22",
+      "end_date": "2026-04-28",
+      "skills": [
+        {
+          "skill": "Docker",
+          "hours": 15,
+          "priority": 0.78,
+          "status": "in_progress",
+          "progress": 37
+        }
+      ],
+      "total_hours": 15,
+      "utilization": 100
+    },
+    {
+      "week": 10,
+      "start_date": "2026-04-29",
+      "end_date": "2026-05-05",
+      "skills": [
+        {
+          "skill": "Docker",
+          "hours": 15,
+          "priority": 0.78,
+          "status": "in_progress",
+          "progress": 60
+        }
+      ],
+      "total_hours": 15,
+      "utilization": 100
+    },
+    {
+      "week": 11,
+      "start_date": "2026-05-06",
+      "end_date": "2026-05-12",
+      "skills": [
+        {
+          "skill": "Docker",
+          "hours": 10,
+          "priority": 0.78,
+          "status": "complete",
+          "progress": 100
+        },
+        {
+          "skill": "Kubernetes",
+          "hours": 5,
+          "priority": 0.7,
+          "status": "in_progress",
+          "progress": 8
+        }
+      ],
+      "total_hours": 15,
+      "utilization": 100
+    },
+    {
+      "week": 12,
+      "start_date": "2026-05-13",
+      "end_date": "2026-05-19",
+      "skills": [
+        {
+          "skill": "Kubernetes",
+          "hours": 15,
+          "priority": 0.7,
+          "status": "in_progress",
+          "progress": 29
+        }
+      ],
+      "total_hours": 15,
+      "utilization": 100
+    },
+    {
+      "week": 13,
+      "start_date": "2026-05-20",
+      "end_date": "2026-05-26",
+      "skills": [
+        {
+          "skill": "Kubernetes",
+          "hours": 15,
+          "priority": 0.7,
+          "status": "in_progress",
+          "progress": 41
+        }
+      ],
+      "total_hours": 15,
+      "utilization": 100
+    },
+    {
+      "week": 14,
+      "start_date": "2026-05-27",
+      "end_date": "2026-06-02",
+      "skills": [
+        {
+          "skill": "Kubernetes",
+          "hours": 15,
+          "priority": 0.7,
+          "status": "in_progress",
+          "progress": 71
+        }
+      ],
+      "total_hours": 15,
+      "utilization": 100
+    },
+    {
+      "week": 15,
+      "start_date": "2026-06-03",
+      "end_date": "2026-06-09",
+      "skills": [
+        {
+          "skill": "Kubernetes",
+          "hours": 6,
+          "priority": 0.7,
+          "status": "complete",
+          "progress": 100
+        }
+      ],
+      "total_hours": 6,
+      "utilization": 40
+    }
+  ],
+  "milestones": [
+    {
+      "milestone": 1,
+      "weeks": "1-4",
+      "start_date": "2026-02-25",
+      "end_date": "2026-03-24",
+      "skills_completed": [
+        "Node.js"
+      ],
+      "total_hours": 60
+    },
+    {
+      "milestone": 2,
+      "weeks": "5-8",
+      "start_date": "2026-03-25",
+      "end_date": "2026-04-21",
+      "skills_completed": [
+        "MongoDB",
+        "React"
+      ],
+      "total_hours": 60
+    },
+    {
+      "milestone": 3,
+      "weeks": "9-12",
+      "start_date": "2026-04-22",
+      "end_date": "2026-05-19",
+      "skills_completed": [
+        "Docker"
+      ],
+      "total_hours": 60
+    },
+    {
+      "milestone": 4,
+      "weeks": "13-15",
+      "start_date": "2026-05-20",
+      "end_date": "2026-06-09",
+      "skills_completed": [
+        "Kubernetes"
+      ],
+      "total_hours": 36
+    }
+  ],
+  "projection": {
+    "completion_date": "2026-06-09",
+    "total_weeks": 15,
+    "total_hours": 216,
+    "skills_count": 5,
+    "average_hours_per_week": 14.4
+  },
+  "progress_metrics": {
+    "overall_completion": 0.0,
+    "skills_completed": 0,
+    "skills_in_progress": 0,
+    "skills_not_started": 5,
+    "total_skills": 5,
+    "hours_completed": 0,
+    "hours_planned": 216,
+    "hours_remaining": 216,
+    "velocity": 0.0,
+    "projected_weeks_remaining": 0,
+    "consistency_score": 0,
+    "on_track": false
+  },
+  "lagging_skills": [],
+  "recommendations": [
+    "\ud83c\udfaf Focus on these high-priority skills first: Node.js, React, MongoDB",
+    "\ud83d\udcda 5 skills have prerequisites. Follow the learning path order.",
+    "\u23f1\ufe0f Total estimated time: 216 hours across all skills",
+    "\ud83d\udcbb Build projects while learning to reinforce concepts"
+  ]
+}

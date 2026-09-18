@@ -1,0 +1,30 @@
+# Python local environment and caches
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node dependencies and generated frontend output
+career-guidance-ui/node_modules/
+career-guidance-ui/build/
+career-guidance-ui/coverage/
+
+# Local runtime data and uploads
+career-guidance-ui/instance/
+career-guidance-ui/backend/uploads/
+career-guidance-ui/uploads/
+
+# Local secrets and logs
+.env
+.env.*
+!.env.example
+*.log
+
+# Editor and OS files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.DS_Store
+
+# Temporary build output
+.dist/
